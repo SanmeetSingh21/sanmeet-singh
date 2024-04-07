@@ -1050,6 +1050,20 @@ body.night .experience .job_time, body.night .footer_copyright, body.night .intr
         right: 7px;
         width: 35px;
     }
+  .skillz_category {
+    margin-bottom: 20px; /* Adjust this value as needed */
+}
+
+.skillz_category_label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.skillz_category_item {
+    list-style-type: none;
+    margin-left: 10px; /* Add margin to the left of each skill item */
+}
+
 }
 
 
