@@ -234,6 +234,20 @@ body.night .switch-wrapper .moon, html.night .switch-wrapper .moon {
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+.intro {
+    display: flex;
+    align-items: center; /* Vertically center align items */
+}
+
+.intro_content {
+    display: flex;
+    align-items: center; /* Vertically center align items */
+}
+
+.intro_hello {
+    margin-left: 10px; /* Adjust the spacing between the image and text */
+}
+
 
 .list {
     margin-top: 0px;
