@@ -95,6 +95,17 @@ section.fadeIn{
                     right: 30px;
                 }
 
+.project_details {
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.project_description,
+.project_used {
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+
+
 .switch-wrapper .sun {
                         background: url(images/white_sun_with_rays.png) no-repeat center;
                         background-size: 100%;
@@ -214,6 +225,22 @@ body.night .switch-wrapper .moon, html.night .switch-wrapper .moon {
     width: 100%;
 }
 
+.intro_content {
+    display: flex;
+    justify-content: space-between; /* Aligns items to the left and right */
+    align-items: center; /* Aligns items vertically */
+}
+
+.intro_hello {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+}
+
+.intro_hello img {
+    width: 100px; /* Adjust the width of the image as needed */
+    margin-left: auto; /* Moves the image to the right */
+}
+
 .container:before {
       content: '[';
       left: 0;
@@ -234,7 +261,6 @@ body.night .switch-wrapper .moon, html.night .switch-wrapper .moon {
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
-
 
 .list {
     margin-top: 0px;
@@ -566,12 +592,13 @@ section .skills{
     font-size: 0.9rem;
 }
 
+
 .featured-projects .project_used_item {
     display: inline-block;
     margin: 3px 3px 3px 0;
     font-family: Inconsolata,monospace;
     font-size: .75rem;
-    font-weight: 400;
+    font-weight: 500;
     padding: 2px 7px;
     border-radius: 3px;
     color: #007bff;
@@ -1051,20 +1078,6 @@ body.night .experience .job_time, body.night .footer_copyright, body.night .intr
         right: 7px;
         width: 35px;
     }
-  .skillz_category {
-    margin-bottom: 20px; /* Adjust this value as needed */
-}
-
-.skillz_category_label {
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.skillz_category_item {
-    list-style-type: none;
-    margin-left: 10px; /* Add margin to the left of each skill item */
-}
-
 }
 
 
